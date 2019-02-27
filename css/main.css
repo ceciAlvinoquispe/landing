@@ -1,0 +1,231 @@
+/* principal */
+.principal {
+	background: url(../img/hand-laptop.jpg) no-repeat;
+	background-size: 100%;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+.capBlack {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.65);
+}
+.principalText {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.frase {
+	color: #fff;
+	font-family: 'montserratregular';
+	text-align: center;
+	font-size: 20px;
+	line-height: 1.8em;
+}
+.principalBtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.principalBtn a {
+	color: #fff;
+	padding: 5px 20px;
+	border-radius: 5px;
+	border: 1px solid #a98c6d;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin: 10px;
+	background-color: #a98c6d;
+}
+
+/* Nosotros */
+.pageHero {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	position: relative;
+	height: 100vh
+}
+.nosotros {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.nosotrosText {
+	font-family: 'montserratregular';
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+	margin: 20px 0;
+}
+.nosotrosTool {
+	display: flex;
+	justify-content: space-between;
+}
+.tool {
+	text-align: center;
+	width: 25%;
+}
+.toolImg{
+	width: 100px;
+	margin: 0 auto;
+}
+.toolTitle {
+	text-transform: uppercase;
+	font-style: italic;
+	font-family: 'montserratregular';
+	font-weight: bold;
+	font-size: 18px;
+	margin: 10px 0 15px;
+}
+.toolConcept {
+	margin-bottom: 20px;
+}
+.toolBtn {
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 10px 20px;
+	background: #97a4a7;
+	color: #fff;
+	border-radius: 5px;
+}
+
+/*Page hero*/
+.side {
+	height: 100vh;
+}
+.sideImg {
+	background: url(../img/happy-man.jpg) no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+	background-position-x: -160px;
+	float: left;
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+}
+.sideTxt {
+	background: #f6f5f1;
+	float: right;
+	width: 50%;
+	height: 100%;
+	position: relative;
+}
+.contend {
+	width: 60%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.sideTitle {
+	font-family: 'montserratregular';
+	font-style: italic;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.sideTag {
+    font-family: 'open_sansbold';
+	font-size: 18px;
+	margin: 20px 0;
+}
+.sideContend {
+	margin: 10px 0 30px;
+}
+.sideBtn {
+    font-family: 'open_sanslight';
+	text-transform: uppercase;
+	padding: 10px 25px;
+	letter-spacing: 2px;
+	font-size: 12px;
+	background: #a98c6d;
+	color: #fff;
+}
+
+/* Post */
+.post {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
+}
+.postTitle {
+	font-family: 'montserratregular';
+	font-style: italic;
+	text-transform: uppercase;
+	font-size: 24px;
+	text-align: center;
+	margin: 40px auto;
+}
+.postList {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 10px auto 30px;
+}
+.postItem {
+	width: 23%;
+	background: #f6f6f2;
+	overflow: hidden;
+}
+.postItem:nth-child(2){
+	background: #a88d6d;
+	color: #fff;
+}
+.postItem:nth-child(3){
+	background: #f7f6f2;
+}
+.postItem:nth-child(4){
+	background: #9aa4a9;
+	color: #fff;
+}
+.postItem__contend {
+	padding: 30px;
+}
+.postItem__contend span {
+	display: block;
+	width: 50px;
+	height: 2px;
+	margin: 0 auto;
+	background: #000;
+}
+.postItem__contend  p {
+	text-transform: uppercase;
+    font-family: 'open_sansbold';
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 26px;
+}
+.postItem__img {
+	height: 120px;
+}
+.postBtn {
+    font-family: 'open_sanslight';
+	text-transform: uppercase;
+	padding: 10px 25px;
+	letter-spacing: 2px;
+	font-size: 12px;
+	background: #9aa4a9;
+	color: #fff;
+}
+
+/* Course */
+.course .sideTxt {
+	float: left;
+}
+.course .sideImg {
+	float: right;
+	background-image: url(../img/bg-course.jpg);
+	background-position-x: right;
+	background-repeat: no-repeat;
+}
